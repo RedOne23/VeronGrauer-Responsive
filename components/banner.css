@@ -1,0 +1,146 @@
+/*------- MENU -------*/
+.banner-menu{
+  padding: 10px;
+  height:50px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255) !important;
+  z-index: 100;
+}
+
+a.nav-link {
+  margin: 20px !important;
+  text-decoration: none !important;
+  color: #e32113b2 !important;
+  font-weight: bolder;
+  transition: 0.2s;
+}
+
+a.nav-link:hover {
+  color: #E32213 !important;
+  transition: 0.2s;
+}
+
+.navbar-brand {
+  margin-right: 20%;
+}
+.logo-vg{
+  height: 60px;
+  width: 90px;
+  margin-top: 20px;
+}
+
+img.flag-gb {
+  height: 25px;
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
+
+img.flag-gb:hover {
+  height: 27px;
+  transition: 0.5s;
+}
+
+img.flag-fr {
+  height: 25px;
+  position: absolute;
+  right: 140px;
+  top: 40px;
+}
+
+img.flag-fr:hover {
+  height: 27px;
+  transition: 0.5s;
+}
+/*------- BANNIERE -------*/
+.banner{
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('../images/Banière_VG.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text{
+  max-width: 700px;
+}
+
+.banner-text p {
+  padding-bottom: 35px;
+}
+
+.h1-red-underline {
+  height: 8px;
+  width: 500px;
+  background-color: #E32213;
+  margin-left: 80px;
+}
+
+.btn-white{
+  background-color: white;
+  color: #E32213;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.btn-white:hover{
+  background-color: rgb(202, 202, 202);
+  text-decoration: none;
+  color: #E32213;
+  transition: 0.1s;
+}
+
+@media (max-width: 990px){
+  .flags {
+    position: absolute;
+  }
+}
+
+@media (max-width: 886px) {
+  .nav {
+    position: relative;
+  }
+
+  .banner-text{
+    max-width: 500px;
+  }
+
+  .h1-red-underline {
+    width: 400px;
+    margin-left: 25px;
+}
+
+  }
+
+  @media (max-width: 430px) {
+    .nav {
+      position: relative;
+    }
+  
+    .banner-text{
+      max-width: 300px;
+    }
+  
+    .h1-red-underline {
+      width: 200px;
+  }
+  
+  .flags {
+    position: absolute;
+    margin-left: 20px;
+    transition: 0.5s;
+  }
+    }
+  
+

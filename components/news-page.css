@@ -1,0 +1,36 @@
+.news-page {
+  margin-top : 150px;
+}
+.card-news-page {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-news-page > img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-news-page h2 {
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.7;
+  margin: 10px 0;
+}
+
+.card-news-page p {
+  font-size: 14px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-news-page .card-news-infos {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
