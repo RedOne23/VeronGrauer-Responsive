@@ -169,6 +169,10 @@
     transition: 0.5s;
   }
 
+  .banner-services-text {
+    padding: 0 20px;
+  }
+
   .responsive {
     display: inline-block;
     text-align: center;
@@ -229,6 +233,11 @@
 .flags {
   position: absolute;
 }
+  }
+
+  .services-img-multimodal, .services-img-handcarry, .services-img-stock, .services-img-event, .services-img-freeport{
+    background-attachment: scroll;
+    
   }
 
   @media (max-width: 430px) {
